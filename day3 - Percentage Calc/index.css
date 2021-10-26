@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section{
+    margin: 1.5rem;
+    background-color: rgb(75, 78, 73);
+    height: 500px;
+    width: 30%;
+    padding: 8px;
+    font-size: 1.2rem;
+   
+}
+nav h3{
+    padding:none;
+    text-align: center;
+    margin: 1rem;
+    width: 90%; 
+}
+aside{
+    background-color: chocolate;
+    margin-bottom: 1.3rem;
+    
+}
+aside h3{
+    padding: 5px;
+    margin-top: 2rem;
+    color: rgb(17, 0, 128);
+    text-align: center;
+}
+#input{
+    width: 70%;
+    margin: 0.5rem;
+    margin-left: 4rem;
+    border: none;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+}
+main{
+    padding: 15px;
+    background-color: rgb(243, 73, 17);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 1.5rem;
+}
+input[type=range]{
+    color: rgb(17, 0, 128);
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    
+    color: rgb(17, 0, 128);
+}
+.time{
+    background-color: chocolate;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#time_input{
+    width: 70%;
+    margin: 0.5rem;
+    border: none;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+}
+.time h3{
+   color: rgb(17, 0, 128);
+}
+
+.result{
+    
+    background-color: chocolate;
+    text-align: center;
+   
+}
+.result span{
+    color: rgb(17, 0, 128);
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#output{
+    padding:5px
+}
+footer{
+    color:rgba(14, 4, 84, 0.884)
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    input[type=range]{
+        cursor: ew-resize;
+    }
+    
+}
+@media screen and (min-width: 800px){
+    section{
+        width: 50%;
+    }
+}

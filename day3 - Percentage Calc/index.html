@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <title> S.I CALCULATOR </title>
+    </head>
+    <body>
+        <div class="main-container">
+            <section id="container">
+                <footer> DESIGNED BY :: NEEFAH</footer>
+                <nav><h3> SIMPLE INTEREST CALCULATOR </h3></nav>
+                <aside>
+                    <h3>
+                        PRINCIPAL(INITIAL AMOUNT)
+                    </h3>
+                    <input type="number" id="input" placeholder="Enter Amount">
+                </aside> 
+                <main>
+                    <span> Choose Rate (in %) </span>
+                    <small id="percent"></small>
+                    <input type="range" value="0" id="range">
+                </main>
+                <div class="time"> 
+                    <h3 id="time">
+                        TIME PERIOD(years)
+                    </h3>
+                    <input type="number" id="time_input" placeholder="Number(in years)">
+                </div>
+                <div class="result">
+                    <span>RESULT </span>
+                    <div class="output"></div>
+                    <h2 id="output"> 0 </h2>
+                </div>
+                
+            </section>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
