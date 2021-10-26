@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A simple Calculator</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <title> A Simple Calculator</title>
+    </head>
+    <body>
+        <div class="main-content">
+            <div class="container">
+                <header>
+                    <h1> simple calculator</h1>
+                </header>
+               
+                <div class="display_pad">
+                    <input type="text" class="screen" value="" />
+                </div>
+                <div class="keys">
+                    <div class="one">
+                        <button class="btn del red" onclick='d("")'> AC </button>
+                        <button class="btn red" onclick='c("")'> C </button>
+                        <button class="btn" onclick='v("%")'> % </button>
+                        <button class="btn" onclick='v("/")'>/</button>
+                       
+                    </div>
+                    <div class="two"> 
+                        <button class="btn number" onclick='v("7")'> 7 </button>
+                        <button class="btn number" onclick='v("8")'> 8 </button>
+                        <button class="btn number" onclick='v("9")'> 9 </button>
+                        <button class="btn " onclick='v("*")'> * </button>
+                        
+                    </div>
+                    <div class="three">
+                        <button class="btn number" onclick='v("4")'> 4 </button>
+                        <button class="btn number" onclick='v("5")'> 5 </button>
+                        <button class="btn number" onclick='v("6")'> 6 </button>
+                        <button class="btn " onclick='v("-")'> - </button>
+                    </div>
+                    <div class="four">
+                        <button class="btn number" onclick='v("1")'> 1 </button>
+                        <button class="btn number" onclick='v("2")'> 2 </button>
+                        <button class="btn number" onclick='v("3")'> 3 </button>
+                        <button class="btn " onclick='v("+")'> + </button>
+                    </div>
+                    <div class="five">
+                        <button class="btn zero number" onclick='v("0")'> 0 </button>
+                        <button class="btn number" onclick='v("00")'> 00 </button>
+                        <button class="btn left" onclick='v(".")'> . </button>
+                        <button class="btn equal-to" onclick='e()'> = </button>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+   
+</html>
+
